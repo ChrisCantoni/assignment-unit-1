@@ -1,7 +1,13 @@
 /* Add a background color to the header element */
-
+header {
+    background-color:seagreen;
+    color: #fff;
+    text-align: center;
+}
 /* Add a fun background color to the main element */
-
+main {
+    background-color:blueviolet;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
