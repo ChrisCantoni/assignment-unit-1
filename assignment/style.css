@@ -2,7 +2,6 @@
 header {
     background-color:darkseagreen;
     color: #fff;
-    text-align: center;
 }
 /* Add a fun background color to the main element */
 main {
@@ -10,7 +9,9 @@ main {
     padding: 10px;
 }
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+    text-align: center;
+}
 /* Make your p tag a different color and italic */
 p {
     font-style: italic;
@@ -30,7 +31,7 @@ p {
 li {
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* Using a class .facts for my list to avoid disrupting the testing elements */
 .facts {
     border: 2px solid #fff;
     border-radius: 3%;
